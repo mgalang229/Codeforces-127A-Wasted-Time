@@ -23,7 +23,7 @@ int main() {
 		cin >> a[i].x >> a[i].y;
 	}
 	// calculate the sum of distances between adjacent points and divide
-	// them by 50 since we need every second the pen moves 50 millimeters
+	// them by 50 since every second the pen moves 50 millimeters
 	// note: don't forget to multiply it to k 
 	// (since Scrooge repeats this exact process for k papers)
 	double time = 0;
